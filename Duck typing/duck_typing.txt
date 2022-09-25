@@ -1,0 +1,39 @@
+## Duck typing 
+Duck Typing is a type system used in dynamic languages. For example, Python, Perl, Ruby, PHP, Javascript, etc. where the type or the class of 
+an object is less important than the method it defines. Using Duck Typing, we do not check types at all. Instead, we check for the presence of 
+a given method or attribute.
+
+The name Duck Typing comes from the phrase:
+“If it looks like a duck and quacks like a duck, it’s a duck”
+
+
+The concept of duck typing has been mostly adopted in programming languages that support dynamic typing, such as Python and JavaScript. 
+In these languages, a common feature is that we declare variables without the need to specify their types. Later in the code, if we wish, 
+we can assign other data types to these variables. Some examples in Python are given below.
+
+a = 2000
+>>> type(a)
+<class 'int'>
+>>> a = 'Dynamic Typing'
+>>> type(a)
+<class 'str'>
+>>> a = [1, 2, 3]
+>>> type(a)
+<class 'list
+
+As you can see from the above code snippet, we initially assigned an integer to the variable a, making it of the int type. Later, we assigned 
+a string and a list of numbers to the same variable, and the type became str and list, respectively. The interpreter didn’t complain about the 
+change of data types of the same variable.
+By contrast, many other kinds of programming languages feature static typing, such as Java and Swift. When we declare variables, we need to be 
+specific about the data types of these variables. Later, if we wish to change the data type, the compiler won’t allow us to do that, as it’s 
+inconsistent with the initial declaration. The following figure shows you what happened when I was trying to do the same things using Swift 
+instead of Python.
+
+
+In the code snippet above, we can see that an instance of the Duck class can certainly swim and quack as reflected by the success of calling the 
+duck_testing function. It is also true for the RoboticBird class, which also implements the needed swim_quack function. However, the Fish class 
+doesn’t implement the swim_quack function, resulting in its instance to fail the duck testing evaluation.
+Taking these observations, we should understand an essential notation for duck typing here. When we use custom types for particular purposes, 
+the implementation of related functionalities is more important than the exact types of data. In our example, even though a robotic bird isn’t 
+a real duck, but its implementation of the swim_quack function “makes” it a duck — an animal that swims and quacks.
+

@@ -1,0 +1,15 @@
+2022-08-12 11:45:06,358  main INFO: info message
+2022-08-12 11:45:06,359  main CRITICAL: critical message
+2022-08-12 11:45:06,361  main DEBUG: debug message
+2022-08-12 11:45:06,362  main WARNING: warning message
+2022-08-12 11:45:06,364  main ERROR: error message
+2022-08-12 11:48:16,358  main INFO: info message
+2022-08-12 11:48:16,358  main INFO: info message
+2022-08-12 11:48:16,360  main CRITICAL: critical message
+2022-08-12 11:48:16,360  main CRITICAL: critical message
+2022-08-12 11:48:16,361  main DEBUG: debug message
+2022-08-12 11:48:16,361  main DEBUG: debug message
+2022-08-12 11:48:16,363  main WARNING: warning message
+2022-08-12 11:48:16,363  main WARNING: warning message
+2022-08-12 11:48:16,364  main ERROR: error message
+2022-08-12 11:48:16,364  main ERROR: error message
