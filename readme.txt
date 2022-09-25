@@ -1,0 +1,1 @@
+This git repos conatins all the python notes and assingments.
